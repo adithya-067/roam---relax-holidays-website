@@ -8,8 +8,7 @@ export function WhatsAppButton() {
 
   return (
     <a
-      href={`https://wa.me/${whatsappNum}?text=Hi Roam & Relax Holidays, I'm interested in planning a trip. Please share the available packages and details.`}
-      target="_blank"
+      href={`https://wa.me/${whatsappNum}?text=${encodeURIComponent("Hi Roam & Relax Holidays, I'm interested in planning a trip. Please share the available packages and details.")}`} target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with us on WhatsApp"
       className="group fixed bottom-5 right-5 z-40 flex items-center gap-2 rounded-full bg-[#25D366] p-3.5 text-white shadow-lg transition-all duration-300 hover:pr-5 hover:shadow-xl"
