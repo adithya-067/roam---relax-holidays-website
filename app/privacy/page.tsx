@@ -14,7 +14,7 @@ export default function PrivacyPage() {
       <main className="mx-auto max-w-4xl px-5 pt-32 pb-20 sm:px-8">
         <h1 className="font-serif text-4xl text-primary sm:text-5xl">Privacy Policy</h1>
         <div className="mt-3 h-1 w-20 bg-accent rounded-full mb-8" />
-        
+
         <div className="space-y-6 text-base leading-relaxed text-foreground/85 font-light">
           <p>
             At <strong>Roam &amp; Relax Holidays</strong>, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and safeguard your data when you visit our website or inquire about our holiday packages.
@@ -39,7 +39,7 @@ export default function PrivacyPage() {
 
           <h2 className="font-serif text-2xl text-primary mt-8">4. Contact Us</h2>
           <p>
-            If you have any questions or concerns regarding our privacy practices, please contact us at <a href="mailto:hello@roamandrelaxholidays.com" className="text-accent-foreground font-medium underline">hello@roamandrelaxholidays.com</a> or call us at +91 9901 330 330.
+            If you have any questions or concerns regarding our privacy practices, please contact us at <a href="mailto:bookings@roamandrelaxholidays.com" className="text-accent-foreground font-medium underline">bookings@roamandrelaxholidays.com</a> or call us at +91 9901 330 330.
           </p>
         </div>
       </main>

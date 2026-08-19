@@ -14,7 +14,7 @@ export default function TermsPage() {
       <main className="mx-auto max-w-4xl px-5 pt-32 pb-20 sm:px-8">
         <h1 className="font-serif text-4xl text-primary sm:text-5xl">Terms of Service</h1>
         <div className="mt-3 h-1 w-20 bg-accent rounded-full mb-8" />
-        
+
         <div className="space-y-6 text-base leading-relaxed text-foreground/85 font-light">
           <p>
             Welcome to <strong>Roam &amp; Relax Holidays</strong>. By accessing our website and utilizing our travel services, you agree to comply with the following terms and conditions.
@@ -37,7 +37,7 @@ export default function TermsPage() {
 
           <h2 className="font-serif text-2xl text-primary mt-8">4. Contact Information</h2>
           <p>
-            For any clarifications regarding booking terms, please contact our team at <a href="mailto:hello@roamandrelaxholidays.com" className="text-accent-foreground font-medium underline">hello@roamandrelaxholidays.com</a>.
+            For any clarifications regarding booking terms, please contact our team at <a href="mailto:bookings@roamandrelaxholidays.com" className="text-accent-foreground font-medium underline">bookings@roamandrelaxholidays.com</a>.
           </p>
         </div>
       </main>

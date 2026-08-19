@@ -59,7 +59,7 @@ RESEND_API_KEY=re_your_resend_api_key_here
 5. Set your business email (where enquiries will be sent):
 
 ```env
-BUSINESS_EMAIL=hello@roamandrelaxholidays.com
+BUSINESS_EMAIL=bookings@roamandrelaxholidays.com
 ```
 
 6. Set the sender email (must be verified in Resend):
@@ -130,7 +130,7 @@ Update your business contact details in `lib/site-data.ts`:
 export const CONTACT_CONFIG: ContactConfig = {
   phone: '+91 9901 330 330',        // Your display phone
   phoneFormatted: '+919901330330',  // Your tel: link format
-  email: 'hello@roamandrelaxholidays.com',
+  email: 'bookings@roamandrelaxholidays.com',
   whatsapp: '919901330330',         // WhatsApp number (no + or spaces)
   address: 'Bengaluru, Karnataka, India',
   socials: {

@@ -7,7 +7,7 @@ const resendApiKey = process.env.RESEND_API_KEY
 const resend = resendApiKey ? new Resend(resendApiKey) : null
 
 export async function sendEnquiryEmailNotification(enquiry: EnquiryRecord): Promise<{ sent: boolean; message: string }> {
-  const recipientEmail = process.env.BUSINESS_EMAIL || CONTACT_CONFIG.email || 'hello@roamandrelaxholidays.com'
+  const recipientEmail = process.env.BUSINESS_EMAIL || CONTACT_CONFIG.email || 'bookings@roamandrelaxholidays.com'
   const fromEmail = process.env.RESEND_FROM_EMAIL || 'Roam & Relax Enquiries <onboarding@resend.dev>'
 
   const safeName = escapeHtml(enquiry.name)

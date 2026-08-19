@@ -204,7 +204,7 @@ SUPABASE_ANON_KEY=your_anon_key_here
 
 # Get from Resend Dashboard → API Keys
 RESEND_API_KEY=re_your_key_here
-BUSINESS_EMAIL=hello@roamandrelaxholidays.com
+BUSINESS_EMAIL=bookings@roamandrelaxholidays.com
 RESEND_FROM_EMAIL=Roam & Relax Enquiries <onboarding@resend.dev>
 ```
 

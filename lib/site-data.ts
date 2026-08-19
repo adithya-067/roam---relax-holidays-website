@@ -20,7 +20,7 @@ export type ContactConfig = {
 export const CONTACT_CONFIG: ContactConfig = {
   phone: '+91 9901 330 330', // Display format
   phoneFormatted: '+919901330330', // tel: link format (digits with country code, no spaces)
-  email: 'hello@roamandrelaxholidays.com',
+  email: 'bookings@roamandrelaxholidays.com',
   whatsapp: '919901330330', // WhatsApp number without + or spaces
   address: 'Bengaluru, Karnataka, India',
   socials: {
