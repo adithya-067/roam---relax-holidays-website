@@ -20,7 +20,7 @@ function isValidUrl(url: string | null): url is string {
 
 export function Footer() {
   const whatsappUrl = CONTACT_CONFIG.whatsapp
-    ? `https://wa.me/${CONTACT_CONFIG.whatsapp}?text=Hi%20Roam%20%26%20Relax%2C%20I%27d%20like%20to%20plan%20a%20trip.`
+    ? `https://wa.me/${CONTACT_CONFIG.whatsapp}?text=Hi Roam & Relax Holidays, I'm interested in planning a trip. Please share the available packages and details.`
     : null
 
   const socials = [
