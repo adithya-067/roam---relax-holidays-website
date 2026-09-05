@@ -6,6 +6,7 @@ import { Menu, MessageCircle, X, Compass, ChevronDown, Clock, MapPin, Sparkles }
 import { cn } from '@/lib/utils'
 import { NAV_LINKS, PACKAGES } from '@/lib/site-data'
 import { useEnquiry } from './enquiry-context'
+import Image from 'next/image'
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -47,31 +48,41 @@ export function Navbar() {
           onClick={() => setMobileOpen(false)}
         >
           <span
-            className={cn(
-              'flex h-10 w-10 items-center justify-center rounded-full border transition-colors',
-              solid ? 'border-primary/25 text-primary' : 'border-white/40 text-white',
-            )}
-          >
-            <Compass className="h-5 w-5" strokeWidth={1.5} />
-          </span>
-          <span className="flex flex-col leading-none">
-            <span
-              className={cn(
-                'font-serif text-xl tracking-tight transition-colors',
-                solid ? 'text-primary' : 'text-white',
-              )}
-            >
-              Roam &amp; Relax
-            </span>
-            <span
-              className={cn(
-                'text-[0.65rem] font-medium uppercase tracking-[0.4em] transition-colors mt-0.5',
-                solid ? 'text-accent-foreground/70' : 'text-white/70',
-              )}
-            >
-              Holidays
-            </span>
-          </span>
+  className={cn(
+    'flex h-12 w-12 shrink-0 items-center justify-center rounded-full border overflow-hidden transition-colors',
+    solid
+      ? 'border-primary/25'
+      : 'border-white/40'
+  )}
+>
+  <Image
+    src="/logo.png"
+    alt="Roam & Relax Holidays"
+    width={48}
+    height={48}
+    className="h-12 w-12 rounded-full object-cover"
+  />
+</span>
+
+<span className="flex flex-col leading-none">
+  <span
+    className={cn(
+      'font-serif text-xl tracking-tight transition-colors',
+      solid ? 'text-primary' : 'text-white'
+    )}
+  >
+    Roam &amp; Relax
+  </span>
+
+  <span
+    className={cn(
+      'text-[0.65rem] font-medium uppercase tracking-[0.4em] transition-colors mt-0.5',
+      solid ? 'text-accent-foreground/70' : 'text-white/70'
+    )}
+  >
+    Holidays
+  </span>
+</span> 
         </Link>
 
         {/* Desktop links - Increased font size to text-[15px] / text-base for improved readability */}
