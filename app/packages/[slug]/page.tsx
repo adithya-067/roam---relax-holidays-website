@@ -216,7 +216,7 @@ export default async function PackageDetailPage({ params }: { params: Promise<{ 
                       </a>
 
                       <a
-                        href="https://wa.me/YOURNUMBER"
+                        href="https://wa.me/919743233663"
                         target="_blank"
                         rel="noreferrer"
                         className="inline-flex items-center justify-center rounded-full border border-border px-6 py-3 text-sm font-semibold text-primary transition hover:bg-secondary"

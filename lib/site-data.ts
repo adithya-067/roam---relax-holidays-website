@@ -18,14 +18,14 @@ export type ContactConfig = {
 // Centralized contact & social media configuration.
 // Edit these values in one place — they power the footer, WhatsApp button, and enquiry emails.
 export const CONTACT_CONFIG: ContactConfig = {
-  phone: '+91 9901 330 330', // Display format
-  phoneFormatted: '+919901330330', // tel: link format (digits with country code, no spaces)
+  phone: '+91 9743 233 663', // Display format
+  phoneFormatted: '+919743233663', // tel: link format (digits with country code, no spaces)
   email: 'bookings@roamandrelaxholidays.com',
-  whatsapp: '919901330330', // WhatsApp number without + or spaces
+  whatsapp: '919743233663', // WhatsApp number without + or spaces
   address: 'Bengaluru, Karnataka, India',
   socials: {
     // Set to a full URL when live, or keep as a clean configurable URL
-    instagram: 'https://instagram.com/roamandrelaxholidays',
+    instagram: 'https://instagram.com/roam.and.relax.holidays',
     facebook: null,
     youtube: null,
     twitter: null,

@@ -136,7 +136,7 @@ export async function sendCustomerConfirmationEmail(enquiry: EnquiryRecord): Pro
           <div style="margin-top: 24px; padding: 16px; background-color: #f8f9fa; border-left: 4px solid #bd9b60; border-radius: 4px;">
             <p style="margin: 0; font-size: 13px; color: #666666;">Need immediate assistance?</p>
             <p style="margin-top: 4px; font-size: 14px; font-weight: bold; color: #16233f;">
-              Call/WhatsApp us: <a href="tel:+919901330330" style="color: #bd9b60; text-decoration: none;">+91 9901 330 330</a>
+              Call/WhatsApp us: <a href="tel:+919743233663" style="color: #bd9b60; text-decoration: none;">+91 9743 233 663</a>
             </p>
           </div>
         </div>

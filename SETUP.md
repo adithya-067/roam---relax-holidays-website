@@ -128,13 +128,13 @@ Update your business contact details in `lib/site-data.ts`:
 
 ```typescript
 export const CONTACT_CONFIG: ContactConfig = {
-  phone: '+91 9901 330 330',        // Your display phone
-  phoneFormatted: '+919901330330',  // Your tel: link format
+  phone: '+91 9743233663',        // Your display phone
+  phoneFormatted: '+919743233663',  // Your tel: link format
   email: 'bookings@roamandrelaxholidays.com',
-  whatsapp: '919901330330',         // WhatsApp number (no + or spaces)
+  whatsapp: '919743233663',         // WhatsApp number (no + or spaces)
   address: 'Bengaluru, Karnataka, India',
   socials: {
-    instagram: 'https://instagram.com/roamandrelax',  // Update when live
+    instagram: 'https://instagram.com/roam.and.relax.holidays',  // Update when live
     facebook: 'https://facebook.com/roamandrelax',     // Update when live
     youtube: 'https://youtube.com/@roamandrelax',      // Update when live
     twitter: 'https://x.com/roamandrelax',             // Update when live
